@@ -16,7 +16,7 @@ $(".button-search").click(function () {
             "http://www.omdbapi.com/?apikey=6f3c4083&i=" +
             $(this).data("imdbid"),
           success: (movieDetails) => {
-            const detail = +displayMovieDetail(movieDetails);
+            const detail = displayMovieDetail(movieDetails);
             $(".modal-body").html(detail);
           },
           error: (e) => {
@@ -46,7 +46,7 @@ function displayCards(movie) {
                 </div>`;
 }
 
-function displayMovieDetail(movieDetail) {
+function displayMovieDetail(movieDetails) {
   return `<div class="container-fluid">
             <div class="row">
               <div class="col-md-3">
