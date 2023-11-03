@@ -3,7 +3,9 @@
 ## API
 Database : https://www.omdbapi.com/ <br>
 Testing-tool : Postman
+FetchAPI
+ajax (previously)
 
-## Framework & Library
+## Framework and Library
 CSS Framework : Bootstrap <br>
-JS Library : JQuery
+JS Library : JQuery (previously)
