@@ -2,8 +2,8 @@
  
 ## API
 Database : https://www.omdbapi.com/ <br>
-Testing-tool : Postman
-FetchAPI
+Postman <br>
+FetchAPI <br>
 ajax (previously)
 
 ## Framework and Library
